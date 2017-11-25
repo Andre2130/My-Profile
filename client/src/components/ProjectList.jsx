@@ -58,7 +58,7 @@ class ProjectList extends Component {
                 <h1>All projects</h1>
                 {this.state.projects.map(project => (
                     <ProjectDisplay>
-                    <div key={project.id}>
+                    <div >
                         <Link to={`${project.id}`} >
                         <img src={project.photo_url} alt="site picture" height="100" width="100"/> 
                         {project.name}</Link>

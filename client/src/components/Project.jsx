@@ -24,8 +24,7 @@ class Project extends Component {
     render() {
         return (
             <div>
-                <img src={this.state.project.photo_url} alt=""/>
-                <h1>{this.state.project.name}</h1>
+                hi
             </div>
         );
     }

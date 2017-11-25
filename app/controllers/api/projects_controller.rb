@@ -34,3 +34,4 @@ class Api::ProjectsController < ApplicationController
       def project_params
         params.require(:project).permit(:name, :site_url, :photo_url)
       end
+    end

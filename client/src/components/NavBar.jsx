@@ -60,13 +60,13 @@ const NavBar = () => {
         <NavBarContainer>
 
             <LogoImageHolder>
-                <LogoImage src="http://brightnewt.com/wp-content/uploads/2014/06/icon1024.png" />
+                <LogoImage src="https://media-exp1.licdn.com/mpr/mpr/shrinknp_400_400/AAIA_wDGAAAAAQAAAAAAAAt1AAAAJDkxM2ZmN2NlLTM5OGUtNGRlOS05MGVmLTliNTkzYzNlZjA0OA.jpg" />
             </LogoImageHolder>
             <AppTitle><Link to="/">Andre's Portfolio </Link></AppTitle>
 
             <NavBarLinkHolder>
-                <NavBarLinks><Link to="#">Sign-up</Link></NavBarLinks>
-                <NavBarLinks><Link to="#">Log-in</Link></NavBarLinks>
+                <NavBarLinks><Link to="#">About Me</Link></NavBarLinks>
+                <NavBarLinks><Link to="#">Contact info</Link></NavBarLinks>
             </NavBarLinkHolder>
 
         </NavBarContainer >

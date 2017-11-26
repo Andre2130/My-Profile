@@ -2,7 +2,8 @@ sauce_radio = Project.create(
     {
         name: 'Sauce Radio',
         site_url: 'Wethesauce.com',
-        photo_url: 'http://wethesauce.com/wp-content/uploads/2016/07/cropped-Sauce-Radio-Color-1-e1467740479569.png'
+        photo_url: 'http://wethesauce.com/wp-content/uploads/2016/07/cropped-Sauce-Radio-Color-1-e1467740479569.png',
+        description: ''
     })
     sauce_radio.save
     
@@ -10,7 +11,8 @@ sauce_radio = Project.create(
     {
         name: 'Hip-Hop Jeopardy',
         site_url: 'http://undertaker-alvin-81307.bitballoon.com/',
-        photo_url: 'https://imgur.com/92wBdTF.jpg'
+        photo_url: 'https://imgur.com/92wBdTF.jpg',
+        description: ''
     })
     jeopardy.save
     
@@ -18,7 +20,8 @@ sauce_radio = Project.create(
     {
         name: 'Sauce Playlists',
         site_url: 'https://serene-meadow-55655.herokuapp.com/',
-        photo_url: 'https://imgur.com/NoqPD1A.jpg'
+        photo_url: 'https://imgur.com/NoqPD1A.jpg',
+        description: ''
     })
     sauce_playlist.save
     
@@ -26,7 +29,8 @@ sauce_radio = Project.create(
     {
         name: 'Sauce Rdiio React On Rails',
         site_url: 'https://sauce-radio-project.herokuapp.com/',
-        photo_url: 'https://imgur.com/sUFOhiF.jpg'
+        photo_url: 'https://imgur.com/sUFOhiF.jpg',
+        description: ''
     })
     sauce_react.save
     
@@ -34,6 +38,7 @@ sauce_radio = Project.create(
     {
         name: 'M&M Mufflers',
         site_url: 'http://www.mmmufflers.com/',
-        photo_url: 'https://imgur.com/YsCnwTs.jpg'
+        photo_url: 'https://imgur.com/YsCnwTs.jpg',
+        description: ''
     })
     m_mufflers.save

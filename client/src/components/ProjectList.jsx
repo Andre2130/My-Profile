@@ -55,7 +55,7 @@ class ProjectList extends Component {
         }
         return (
             <Main>
-                <h1>All projects</h1>
+                <h3>All projects</h3>
                 {this.state.projects.map(project => (
                     <ProjectDisplay>
                     <div >

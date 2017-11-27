@@ -6,14 +6,11 @@ import { Link } from 'react-router-dom'
 
 const ProfilePic = styled.div`
 display: inline-block;
-width: 50px;
-height: 50px;
+width: 100px;
+height: 100px;
 border-radius: 50%;
 float: left;
 margin: 50px;
-img{
-    border-radius: 50%;
-};
 `
 
 class Project extends Component {
@@ -42,6 +39,9 @@ class Project extends Component {
     render() {
         return (
             <div>
+                <h2>{this.state.project.name}</h2>
+                <br/>
+                <br/>
                 <p>{this.state.project.description}</p>
                 <a href={`${this.state.project.site_url}`}> <ProfilePic><img src={this.state.project.photo_url} height="500" width="500"/></ProfilePic></a>
             </div>

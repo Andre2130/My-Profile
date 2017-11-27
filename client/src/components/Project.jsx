@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 
 const ProfilePic = styled.div`
@@ -41,8 +42,8 @@ class Project extends Component {
     render() {
         return (
             <div>
-                <p></p>
-                <ProfilePic><img src={this.state.project.photo_url} height="500" width="500"/></ProfilePic>
+                <p>{this.state.project.description}</p>
+                <a href={`${this.state.project.site_url}`}> <ProfilePic><img src={this.state.project.photo_url} height="500" width="500"/></ProfilePic></a>
             </div>
         );
     }

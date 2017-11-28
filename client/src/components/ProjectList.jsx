@@ -20,6 +20,7 @@ text-align: center;
 float:left;
 margin: 10px;
 padding: 20px; 
+background-color:grey;
 `
 
 class ProjectList extends Component {

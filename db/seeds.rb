@@ -18,15 +18,14 @@ sauce_radio = Project.create(
     })
     jeopardy.save
     
-    sauce_playlist = Project.create(
-    {
-        name: 'Sauce Playlists',
-        site_url: 'https://serene-meadow-55655.herokuapp.com/',
-        photo_url: 'https://imgur.com/NoqPD1A.jpg',
-        description: 'This was a React App created with a mongo database. you have the ablity to create a new user,
-        playlist and add songs to the playlists.'
-    })
-    sauce_playlist.save
+    vagabondtraveler = Project.create(
+        {
+            name: 'Vagabond Traveler',
+            site_url: 'http://vagabondtraveler.herokuapp.com',
+            photo_url: 'https://imgur.com/S4XZY18.jpg',
+            description: 'This was a group project .'
+        })
+        vagabondtraveler.save
     
     sauce_react = Project.create(
     {
@@ -46,3 +45,5 @@ sauce_radio = Project.create(
         description: 'This is my frist freelance project. I used an HTML template to get started and intergrated Google maps into the site.'
     })
     m_mufflers.save
+
+    

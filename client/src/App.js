@@ -6,6 +6,7 @@ import NavBar from './components/NavBar'
 import HomePage from './components/HomePage'
 import AboutMe from './components/AboutMe'
 import Contact from './components/Contact'
+import SlideShow from './components/SlideShow'
 import axios from 'axios'
 import "./App.css";
 
@@ -29,6 +30,7 @@ class App extends Component {
             <Router>
                 <div className="App">
                     <NavBar />
+                    <SlideShow />
                     <Route exact path="/" component={ProjectList}/>
                     <Route path="/project/:id" component={Project}/>
                     <Route path="/about" component={AboutMe}/>

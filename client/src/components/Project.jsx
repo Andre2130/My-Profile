@@ -39,12 +39,11 @@ class Project extends Component {
     render() {
         return (
             <div>
-                <h2>{this.state.project.name}</h2>
+                <h4>{this.state.project.name}</h4>
                 <br/>
                 <br/>
                 <p>{this.state.project.description}</p>
-                <a href={`${this.state.project.site_url}`}> <ProfilePic><img src={this.state.project.photo_url} height="500" width="500"/></ProfilePic></a>
-                <button>yo</button>
+                <a href={`${this.state.project.site_url}`}> <ProfilePic><img src={this.state.project.photo_url} width="max"/></ProfilePic></a>
             </div>
         );
     }

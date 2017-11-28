@@ -4,7 +4,7 @@ class Contact extends Component {
     render() {
         return (
             <div>
-                
+                atrobinson30@gmail.com
             </div>
         );
     }

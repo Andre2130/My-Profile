@@ -65,8 +65,8 @@ const NavBar = () => {
             <AppTitle><Link to="/">Andre's Portfolio </Link></AppTitle>
 
             <NavBarLinkHolder>
-                <NavBarLinks><Link to="#">About Me</Link></NavBarLinks>
-                <NavBarLinks><Link to="#">Contact info</Link></NavBarLinks>
+                <NavBarLinks><Link to="/about">About Me</Link></NavBarLinks>
+                <NavBarLinks><Link to="/contact">Contact info</Link></NavBarLinks>
             </NavBarLinkHolder>
 
         </NavBarContainer >

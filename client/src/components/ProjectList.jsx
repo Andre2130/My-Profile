@@ -55,15 +55,27 @@ class ProjectList extends Component {
         }
         return (
             <Main>
-                <h3>All projects</h3>
+                
+                <h4>All projects</h4>
                 {this.state.projects.map(project => (
-                    <ProjectDisplay>
-                    <div >
-                        <Link to={`project/${project.id}`} >
-                        <img src={project.photo_url} alt="site picture" height="100" width="100"/> 
-                        {project.name}</Link>
-                    </div>
-                    </ProjectDisplay>
+                    <Link to={`project/${project.id}`} >
+                              <div class="row">
+                              <div class="col s1 m7">
+                                <div class="card">
+                                  <div class="card-image">
+                                    <img src={project.photo_url} height="250" width="250"/>
+                                  </div>
+                                  <div class="card-content">
+                                    <p>{project.description}</p>
+                                  </div>
+                                  <div class="card-action">
+                                    <a href="#">{project.name}</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            </Link>
+                    
                 ))}
             </Main>
         );

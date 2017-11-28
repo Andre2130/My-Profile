@@ -4,6 +4,8 @@ import ProjectList from "./components/ProjectList";
 import Project from "./components/Project";
 import NavBar from './components/NavBar'
 import HomePage from './components/HomePage'
+import AboutMe from './components/AboutMe'
+import Contact from './components/Contact'
 import axios from 'axios'
 import "./App.css";
 
@@ -29,6 +31,8 @@ class App extends Component {
                     <NavBar />
                     <Route exact path="/" component={ProjectList}/>
                     <Route path="/project/:id" component={Project}/>
+                    <Route path="/about" component={AboutMe}/>
+                    <Route path="/contact" component={Contact}/>
                 </div>
             </Router>
         );

@@ -11,6 +11,7 @@ height: 100px;
 border-radius: 50%;
 float: left;
 margin: 50px;
+position:relative;
 `
 
 class Project extends Component {

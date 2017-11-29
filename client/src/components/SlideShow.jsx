@@ -16,7 +16,7 @@ class SlideShow extends Component {
         //     images.push(project.photo_url)
         //     ))}
         return (
-            <div>
+            
                 
                 <Slide
           images={images}
@@ -24,7 +24,7 @@ class SlideShow extends Component {
           transitionDuration="1000"
           height="200"
         />
-            </div>
+            
         );
     }
 }

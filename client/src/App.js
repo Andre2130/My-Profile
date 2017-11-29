@@ -30,9 +30,9 @@ class App extends Component {
             <Router>
                 <div className="App">
                     <NavBar />
-                    <Route exact path="/" component={ProjectList}/>
+                    <Route exact path="/" component={AboutMe}/>
                     <Route path="/project/:id" component={Project}/>
-                    <Route path="/about" component={AboutMe}/>
+                    <Route path="/projects" component={ProjectList}/>
                     <Route path="/contact" component={Contact}/>
                 </div>
             </Router>

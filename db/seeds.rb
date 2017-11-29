@@ -14,7 +14,8 @@ sauce_radio = Project.create(
         name: 'Hip-Hop Jeopardy',
         site_url: 'http://undertaker-alvin-81307.bitballoon.com/',
         photo_url: 'https://imgur.com/92wBdTF.jpg',
-        description: 'This was my first project at General Assembly. This is a simply jeopardy game made from HTML, CSS and JavaScript.'
+        description: 'This was my first project at General Assembly. This is a simply jeopardy game made from HTML, CSS and JavaScript.
+        All of the questions are hard-coded at the moment but in the future I will make it more dynamic.'
     })
     jeopardy.save
     
@@ -23,7 +24,8 @@ sauce_radio = Project.create(
             name: 'Vagabond Traveler',
             site_url: 'http://vagabondtraveler.herokuapp.com',
             photo_url: 'https://imgur.com/S4XZY18.jpg',
-            description: 'This was a group project .'
+            description: 'This was a group project. I was primarily responsible for the front end development and css.
+            This project gave me a good understanding of how to work on projects in a group.'
         })
         vagabondtraveler.save
     
@@ -33,7 +35,7 @@ sauce_radio = Project.create(
         site_url: 'https://sauce-radio-project.herokuapp.com/',
         photo_url: 'https://imgur.com/sUFOhiF.jpg',
         description: 'This is a full CRUD app. You have the ablity to create, Edit and delete albums.
-        I used React on rails to create this app with a postgres databse.'
+        I used React on rails to create this app with a postgres database.'
     })
     sauce_react.save
     
@@ -42,7 +44,8 @@ sauce_radio = Project.create(
         name: 'M&M Mufflers',
         site_url: 'http://www.mmmufflers.com/',
         photo_url: 'https://imgur.com/YsCnwTs.jpg',
-        description: 'This is my frist freelance project. I used an HTML template to get started and intergrated Google maps into the site.'
+        description: 'This is my frist freelance project. I used an HTML template to get started and intergrated Google maps into the site.
+        This project gave me first hand experience with dealing with customer requests.'
     })
     m_mufflers.save
 

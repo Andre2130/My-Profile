@@ -29,7 +29,7 @@ sauce_radio = Project.create(
     
     sauce_react = Project.create(
     {
-        name: 'Sauce Rdiio React On Rails',
+        name: 'Sauce Radio React On Rails',
         site_url: 'https://sauce-radio-project.herokuapp.com/',
         photo_url: 'https://imgur.com/sUFOhiF.jpg',
         description: 'This is a full CRUD app. You have the ablity to create, Edit and delete albums.

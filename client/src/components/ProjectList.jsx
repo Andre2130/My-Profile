@@ -20,8 +20,8 @@ width: max;
 text-align: center;
 float:left;
 margin: 10px;
-padding: 20px; 
-background-color:grey;
+padding: 20px;
+bckground-color:#ee6e73;
 `
 
 class ProjectList extends Component {
@@ -58,8 +58,7 @@ class ProjectList extends Component {
         return (
             <Main>
                 
-                <h4>All projects</h4>
-                <SlideShow projects={this.state.projects}/>
+                
                 {this.state.projects.map(project => (
                     <Link to={`project/${project.id}`} >
                               <div class="row">

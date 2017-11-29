@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import SlideShow from './SlideShow'
 import styled from 'styled-components'
 
 const ProjectDisplay = styled.div`
@@ -58,6 +59,7 @@ class ProjectList extends Component {
             <Main>
                 
                 <h4>All projects</h4>
+                <SlideShow projects={this.state.projects}/>
                 {this.state.projects.map(project => (
                     <Link to={`project/${project.id}`} >
                               <div class="row">
@@ -65,9 +67,6 @@ class ProjectList extends Component {
                                 <div class="card">
                                   <div class="card-image">
                                     <img src={project.photo_url} height="250" width="250"/>
-                                  </div>
-                                  <div class="card-content">
-                                    <p>{project.description}</p>
                                   </div>
                                   <div class="card-action">
                                     <a href="#">{project.name}</a>

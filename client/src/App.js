@@ -30,7 +30,6 @@ class App extends Component {
             <Router>
                 <div className="App">
                     <NavBar />
-                    <SlideShow />
                     <Route exact path="/" component={ProjectList}/>
                     <Route path="/project/:id" component={Project}/>
                     <Route path="/about" component={AboutMe}/>
